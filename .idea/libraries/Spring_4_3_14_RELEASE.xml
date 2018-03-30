@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Spring-4.3.14.RELEASE" type="spring">
+    <properties version="4.3.14.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-instrument-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-aspects-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-instrument-tomcat-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-context-support-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-expression-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-aop-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-jdbc-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-messaging-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-oxm-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-jms-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-orm-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-tx-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-beans-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-context-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-test-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/netease/lib/spring-core-4.3.14.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
