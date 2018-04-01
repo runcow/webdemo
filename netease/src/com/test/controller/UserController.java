@@ -1,5 +1,6 @@
 package com.test.controller;
 
+import com.test.util.SqlConnectUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -43,40 +44,36 @@ public class UserController {
         return mov;
     }
 
-    @RequestMapping(value="/xqy",method= RequestMethod.POST,produces="text/html;charset=UTF-8")
+    @RequestMapping(value="/zs",method= RequestMethod.POST,produces="text/html;charset=UTF-8")
     public ModelAndView xqy(String name, String age)
     {
-        System.out.println("接收到的用户信息："+name+" age:"+age);
+
 
 
         //...
-        int id = 1;
 
-
-
+        String result = SqlConnectUtil.update();
         ModelAndView mov=new ModelAndView();
         mov.setViewName("saveUserSuccess");
-        mov.addObject("msg", "保存成功了");
-        mov.addObject("id", id);
+        mov.addObject("msg", "操作成功了");
+        mov.addObject("id", result);
 
         return mov;
     }
 
-    @RequestMapping(value="/qy",method= RequestMethod.POST,produces="text/html;charset=UTF-8")
+    @RequestMapping(value="/cs",method= RequestMethod.POST,produces="text/html;charset=UTF-8")
     public ModelAndView qy(String name, String age)
     {
-        System.out.println("接收到的用户信息："+name+" age:"+age);
 
 
         //...
-        int id = 1;
 
 
-
+        String result = SqlConnectUtil.update2();
         ModelAndView mov=new ModelAndView();
         mov.setViewName("saveUserSuccess");
         mov.addObject("msg", "保存成功了");
-        mov.addObject("id", id);
+        mov.addObject("id", result);
 
         return mov;
     }
